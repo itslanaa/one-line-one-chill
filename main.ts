@@ -1,3 +1,4 @@
+// One Line, One Chill — writes the single horror line to entry.txt.
 import fs from "node:fs";
 const TEXT = "I heard my own voice on the baby monitor, saying goodnight to a child I don't have.";
 const out = process.env.MAKEFUN_OUTPUT_DIR || "/output";
